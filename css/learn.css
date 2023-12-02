@@ -1,0 +1,61 @@
+.main_sectionone > h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.main_sectiontwo {
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+.sectionone-head1 {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 25px;
+}
+.main_sectiontwo > hr {
+    text-align: center;
+    width: 450px;
+    border: 2px solid darkgrey;
+    margin-top: -34px;
+}
+.sectiontwo-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+.sectiontwo-block {
+    width: 32%;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.sectiontwo-block > p {
+    height: 260px;
+    padding: 0 10px;
+}
+@media screen and (max-width: 900px) {
+    .sectiontwo-block > p {
+        height: 290px;
+    }
+}
+.sectiontwo-block > hr {
+    width: 90%;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+.sectiontwo-block > a {
+    text-decoration: none;
+}
+.sectiontwo-block > a > button{
+    width: 90%;
+    height: 50px;
+    display: block;
+    margin: auto;
+    background-color: darkgrey;
+    border-radius: 5px;
+    border: 0;
+}
+
+.sectiontwo-block > a > button > p{
+    margin: auto;
+}

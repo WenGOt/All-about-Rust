@@ -22,7 +22,7 @@
     height: min-content;
 }
 .firstsection-rightside--btn {
-    border: 1px solid orange;
+    border: 1px solid gray;
     border-radius: 5px;
     width: 250px;
     height: 90px;
@@ -32,6 +32,10 @@
     font-size: 30px;
     padding: auto;
     margin: auto;
+    background-color: lightgrey;
+    width: min-content;
+    padding: 20px 45px;
+    border-radius: 5px;
 }
 
 .main_sectiontwo {
