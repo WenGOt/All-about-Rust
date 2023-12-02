@@ -1,0 +1,60 @@
+.main_sectionone > h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.main_sectiontwo {
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+.sectionone-head1 {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 25px;
+}
+.main_sectiontwo > hr {
+    text-align: center;
+    width: 450px;
+    border: 2px solid darkgrey;
+    margin-top: -34px;
+}
+.main_sectiontwo > p {
+    text-align: justify;
+    padding: 5px 40px;
+}
+.sectiontwo-block {
+    display: flex;
+    justify-content: space-evenly;
+}
+.sectiontwo-block > a > button {
+    width: 400px;
+    height: 40px;
+    margin: auto;
+    background-color: darkgrey;
+    border: 0;
+    border-radius: 5px;
+}
+.sectiontwo-block > a > button > p {
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.sectiontwo-text {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.sectiontwo-text > p {
+    padding: 5px 10px;
+    margin: 0;
+    background-color: #2b2b2b;
+    border-radius: 5px;
+    color: white;
+}
+.sectionone-head2 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}

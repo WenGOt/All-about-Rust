@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rust как язык программирования</title>
     <link rel="stylesheet" href="css/all_styles.css">
-    <link rel="stylesheet" href="css/">
+    <link rel="stylesheet" href="css/install.css">
 </head>
 <body>
     
@@ -26,13 +26,69 @@
                 <li>
                     <a href="#">Изучение</a>
                 </li>
-                <li>
-                    <a href="#">Как пользоваться</a>
-                </li>
             </ul>
         </nav>
 
     </header>
+
+    <main>
+        <article>
+
+            <section class="main_sectionone">
+                <h1>Установка Rust</h1>
+            </section>
+
+            <section class="main_sectiontwo">
+                <h4 class="sectionone-head1">Используя rustup (рекомендуется)</h4>
+                <hr>
+                <p>
+                    Похоже, вы работаете под управлением Windows. 
+                    Чтобы начать использовать Rust, загрузите установщик, 
+                    затем запустите программу и следуйте инструкциям на экране. 
+                    Возможно, Вам потребуется установитьVisual Studio C++ Build tools при появлении соответствующего запроса. 
+                </p>
+                <div class="sectiontwo-block">
+                    <a href="https://static.rust-lang.org/rustup/dist/i686-pc-windows-msvc/rustup-init.exe">
+                        <button>
+                            <p>Загрузить rustup-init.exe (32 bit)</p>
+                        </button>
+                    </a>
+                    <a href="https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe">
+                        <button>
+                            <p>Загрузить rustup-init.exe (64 bit)</p>
+                        </button>
+                    </a>
+                </div>
+                <h4 class="sectionone-head2">Windows Subsystem for Linux</h4>
+                <p>Если вы используете Windows Subsystem for Linux, для установки Rust запустите следующее в вашем терминале и затем следуйте инструкциям на экране.</p>
+                <div class="sectiontwo-text">
+                    <p>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</p>
+                </div>
+            </section>
+
+
+        </article>
+    </main>
+
+    <footer>
+        <nav class="header_navigation">
+            <ul>
+                <li>
+                    <a href="#">Установка</a>
+                </li>
+                <li>
+                    <a href="#">Изучение</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header_logo">
+            <a href="./index.html">
+                <h1>Rust</h1>
+                <img src="./img/logo.svg" alt="logo">
+            </a>
+        </div>
+    </footer>
 
 </body>
 </html>
