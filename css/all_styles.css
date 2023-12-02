@@ -3,15 +3,19 @@
     src: url(../fonts/Gilroy\ SemiBold-normal-600-100.otf);
 }
 
+p {
+    font-size: 20px;
+}
 body {
-    width: 1100px;
-    max-width: 1200px;
+    min-width: 820px;
+    max-width: 1100px;
     margin: 0 auto;
     font-family: "Gilroy";
 }
 
 header {
     display: flex;
+    justify-content: space-between;
 }
 .header_logo > a {
     display: flex;
@@ -20,13 +24,14 @@ header {
 }
 .header_logo > a > h1 {
     margin: auto;
+    font-size: 35px;
 }
 .header_logo > a > img {
     width: 100px;
 }
 .header_navigation {
     width: 50%;
-    margin: auto;
+    margin: auto 0;
 }
 .header_navigation > ul {
     display: flex;
@@ -34,8 +39,16 @@ header {
 }
 .header_navigation > ul > li {
     list-style-type: none;
+    text-align: center;
 }
 .header_navigation > ul > li > a {
     text-decoration: none;
     color: black;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
 }
